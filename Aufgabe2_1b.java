@@ -3,10 +3,11 @@
  * 
  * Bei anzahl = 5, würde die Ausgabe wie folgt aussehen:
  * 
- * *****
- * *****
- * *****
- * *****
+ * 	*****
+ * 	*****
+ * 	*****
+ * 	*****
+ * 	*****
  */
 
 public class Aufgabe2_1b {
