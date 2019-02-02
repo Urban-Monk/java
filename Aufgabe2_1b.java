@@ -1,5 +1,5 @@
 /* Verändern Sie das Programm nun so, dass ein Quadrat mit der angegebenen Anzahl
- * Sternchen horizontal und vertiakl ausgegeben wird.
+ * Sternchen horizontal und vertikal ausgegeben wird.
  * 
  * Bei anzahl = 5, würde die Ausgabe wie folgt aussehen:
  * 
