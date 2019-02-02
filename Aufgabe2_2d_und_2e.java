@@ -2,7 +2,7 @@
  * Lassen Sie dazu zunächst n eingeben.
  * Dann probieren Sie in einer Schleife von 1..n jede Zahl aus
  * und geben Sie sie aus, wenn Sie ein Teiler  von "n" ist.
- * Um dies festzustellen, benutzen Sie die module-Funktion (%)
+ * Um dies festzustellen, benutzen Sie die Modulo-Funktion (%)
  */
 
 public class Aufgabe2_2d_und_2e {
