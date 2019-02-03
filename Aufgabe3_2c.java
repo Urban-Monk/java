@@ -8,15 +8,15 @@ public class Aufgabe3_2c {
 		
 		
 		int blood[] = new int[size];
+		StdOut.print("Enter " + size + " blood level(s) for each patient: ");
 		
-		for(int i=0; i < blood.length; i++, size--) {
-			StdOut.print("Enter " + size + " blood level(s) for each patient." +
-							"(Press enter after each level) :");
+		for(int i=0; i < blood.length; i++) {
+			
 			blood[i] = StdIn.readInt();
 			if(blood[i] >= 120) ueber++;
 			else if ((blood[i] < 80)) unter++;
 		}
-		StdOut.println(ueber + " people have hyperglycemia.");
+		StdOut.println("\n" + ueber + " people have hyperglycemia.");
 		StdOut.println(unter + " people have hypoglycemia.");
 		
 		if(ueber!=0)
@@ -24,7 +24,8 @@ public class Aufgabe3_2c {
 		else
 			StdOut.println("0% of the people have hyperglycemia");
 		if(unter!=0)
-			StdOut.println((double) unter / (double) blood.length * 100 + "%" + " of the people have hypoglycemia");
+			StdOut.println((double) unter / (double) blood.length * 100 + "%" 
+									+ " of the people have hypoglycemia");
 		else
 			StdOut.println("0% of the people have hypoglycemia");
 		
