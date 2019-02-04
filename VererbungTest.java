@@ -28,7 +28,7 @@ class Emp extends Person {
 		StdOut.println("Name: " + name + "\nAge: " + age + "\nDepartment: " + department + "\nSalary: " + salary);
 	}
 	
-	// 
+	
 	public double getSalary() { return this.salary; }
 		
 	
