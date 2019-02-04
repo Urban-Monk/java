@@ -1,6 +1,6 @@
 /* 2 Klassen erstellen: "Person" und "Emp", wo Emp die Subklasse von Person ist.
  * Klasse Emp vererbt die Attributen(age und name) der Person.
- * Und erweitert es, indem sie noch das Gehalt- und die Abteilung-Attributen hinzufügt.
+ * Und erweitert es, indem Sie noch das Gehalt und die Abteilung einer Person hinzufügt..
  * 
  * Klasse Emp bietet auch die Möglichkeit an, das Gehalt von den Mitarbeitern zu erhöhen.
  */
@@ -28,11 +28,11 @@ class Emp extends Person {
 		StdOut.println("Name: " + name + "\nAge: " + age + "\nDepartment: " + department + "\nSalary: " + salary);
 	}
 	
-	
+	 
 	public double getSalary() { return this.salary; }
 		
 	
-	public void giveRaise(double amount) { this.salary += this.salary * (amount / 100); }
+	public void giveRaise(double oldSalary, double amount) { this.salary += this.salary * (amount / 100); }
 		
 		
 		
@@ -49,7 +49,7 @@ public class VererbungTest {
 		employee1.dispAttr();
 		
 		// Eine Gehaltserhöhung von 10% geben:
-		employee1.giveRaise(10);
+		employee1.giveRaise(employee1.getSalary(), 10);
 		StdOut.println("New Salary: " + employee1.getSalary());
 		
 		StdOut.println("---------------------------------------------------------------");
@@ -57,8 +57,8 @@ public class VererbungTest {
 		// Eigenschaften des zweiten Mitarbeiters:
 		employee2.dispAttr();
 		
-		// Einge Gehaltserhöhung von 25%:
-		employee2.giveRaise(25);
+		// Eine Gehaltserhöhung von 25%:
+		employee2.giveRaise(employee2.getSalary(), 25);
 		StdOut.println("New Salary: " + employee2.getSalary());
 		
 		
