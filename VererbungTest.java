@@ -1,5 +1,5 @@
 /* 2 Klassen erstellen: "Person" und "Emp", wo Emp die Subklasse von Person ist.
- * Klasse Emp vererbt die Attributen(age und name) der Person.
+ * Klasse Emp vererbt die Attribute(age und name) der Person.
  * Und erweitert es, indem Sie noch das Gehalt und die Abteilung einer Person hinzufügt..
  * 
  * Klasse Emp bietet auch die Möglichkeit an, das Gehalt von den Mitarbeitern zu erhöhen.
