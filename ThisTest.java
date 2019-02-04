@@ -12,10 +12,10 @@ class Dog {
 	
 	// Constructor Method:
 	public Dog(int age, String color) {
-		age = age;				// Java-Compiler ist verwirrt hier und weißt nicht, 
-							// welchen Wert er zu "age" bzw. "color"(auf der linken Seite) zuordnen soll.
-		color = color;				// Das Selbe wie oben. Soll der Compiler die lokale, Parametervariable "age" zuordnen
-							// oder die Instanzvariable "age" bzw. "color".
+		age = age;			// Java-Compiler ist verwirrt hier und weißt nicht, 
+						// welchen Wert er zu "age" bzw. "color"(auf der linken Seite) zuordnen soll.
+		color = color;			// Das Selbe wie oben. Soll der Compiler die lokale, Parametervariable "age" zuordnen
+						// oder die Instanzvariable "age" bzw. "color".
 		
 	}
 	public void dispAttr() {
@@ -31,12 +31,12 @@ public class ThisTest {
 		// Create a new "Dog" object:
 		
 		Dog max = new Dog(5, "black");
-		max.dispAttr();						// Das Ergebnis zeigt uns, diese Ungewissheit führt dazu, 
-									// dass der Compiler die Instanzvariablen "age" bzw. "color"
-									// zuordnet statt die lokalen Parametervariablen. 
-									// Deshalb wenn ein neues Dog-Objekt erzeugt wird, 
-									// wird dieses Objekt die Attribute 2 und white haben
-									// Statt die erwünschte 5 und black.
+		max.dispAttr();					// Das Ergebnis zeigt uns, diese Ungewissheit führt dazu, 
+								// dass der Compiler die Instanzvariablen "age" bzw. "color"
+								// zuordnet statt die lokalen Parametervariablen. 
+								// Deshalb wenn ein neues Dog-Objekt erzeugt wird, 
+								// wird dieses Objekt die Attribute 2 und white haben
+								// Statt die erwünschte 5 und black.
 											
 											
 		
