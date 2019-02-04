@@ -14,7 +14,7 @@ class Dog {
 	public Dog(int age, String color) {
 		age = age;			// Java-Compiler ist verwirrt hier und weißt nicht, 
 						// welchen Wert er zu "age" bzw. "color"(auf der linken Seite) zuordnen soll.
-		color = color;			// Das Selbe wie oben. Soll der Compiler die lokale, Parametervariable "age" zuordnen
+		color = color;			// Das Selbe wie oben. Soll der Compiler die lokale, Parametervariable "color" zuordnen
 						// oder die Instanzvariable "age" bzw. "color".
 		
 	}
