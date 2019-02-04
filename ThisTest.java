@@ -1,5 +1,5 @@
 /* Dieses Testprogramm verdeutlich die Funktionalität des "THIS" Schlüsselworts in Java.
- * Es hat eine ganz simple Dog-Klasse, die 2 Attribute: age und color,
+ * Es hat eine ganz simple Dog-Klasse, die 2 Attribute: age und color hat,
  * Sowie eine "dispAttr" Methode, um das Ergebnis in Output-Stream zu zeigen.
  * 
  * Die Unübersichtlichkeit der Konstruktor-Methode ist absichtlich und in diesem Fall erwünscht
